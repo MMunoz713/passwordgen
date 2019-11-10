@@ -15,7 +15,7 @@ function generate(){
 
 }
 
-document.getElementById("length").innerHTML = "Length: 25";
+document.getElementById("length").innerHTML = "Length: 64";
 
 document.getElementById("slider").oninput = function(){
 
