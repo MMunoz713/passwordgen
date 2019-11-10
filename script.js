@@ -1,4 +1,3 @@
-//generate random password
 function generate(){
 
     let complexity = document.getElementById("slider").value;
