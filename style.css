@@ -14,6 +14,11 @@ body{
     width: 100%;
 }
 
+#length{
+    display:inline-block;
+    width: 100px;
+
+}
 #slider{
     width: 100%;
 }

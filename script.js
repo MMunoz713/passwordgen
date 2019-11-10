@@ -14,3 +14,15 @@ function generate(){
     document.getElementById("display").value = password;
 
 }
+
+document.getElementById("length").innerHTML = "Length: 25";
+
+document.getElementById("slider").oninput = function(){
+    
+    if (document.getElementById("slider").value > 0){
+        document.getElementById("length").innerHTML = "length: " + document.getElementById("slider").value;
+    }
+    else{
+        document.getElementById("length").innerHTML = "length: 1";
+    }
+}
